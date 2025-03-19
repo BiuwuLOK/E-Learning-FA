@@ -16,6 +16,7 @@ E-Learning-FA is a project focused on e-learning. This project uses Jupyter Note
 ├── scripts/            # Python scripts
 ├── results/            # Analysis results and model outputs
 └── README.md           # Project description file
+```
 
 ## Installation and Usage
 
