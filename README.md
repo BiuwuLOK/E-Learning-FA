@@ -8,7 +8,7 @@ E-Learning-FA is a project focused on e-learning. This project uses Jupyter Note
 - **Machine Learning**: Includes implementations and applications of various machine learning models.
 - **Data Preprocessing**: Provides tools and methods for data cleaning, transformation, and processing.
 
-## Directory Structure
+## Directory Structure (ref.)
 ```plaintext
 .
 ├── data/               # Datasets
