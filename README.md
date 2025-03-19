@@ -36,10 +36,6 @@ E-Learning-FA is a project focused on e-learning. This project uses Jupyter Note
     jupyter notebook
     ```
 
-## Contributing
-
-Contributions are welcome! Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
