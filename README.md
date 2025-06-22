@@ -1,7 +1,9 @@
 # E-Learning-FA (2022-2023)
 
-## Overview
-This repository contains a Jupyter Notebook dedicated to analyzing e-Learning data using factor analysis techniques. The analysis focuses on understanding the factors influencing e-Learning during the COVID-19 pandemic. The project includes data preprocessing, factor analysis, and visualization to derive insights from the provided survey data.
+## 專案簡介 | Project Overview
+
+本專案旨在分析與探討 E-Learning（線上學習）相關數據，內容涵蓋資料預處理、統計分析、模型建立及視覺化，並以 Jupyter Notebook 進行互動式分析。  
+This project focuses on analyzing and exploring E-Learning data, including preprocessing, statistical analysis, modeling, and visualization, primarily using Jupyter Notebook.
 
 ## Features
 - **Interactive Notebooks**: Use Jupyter Notebook for interactive data analysis and visualization.
@@ -17,57 +19,93 @@ This repository contains a Jupyter Notebook dedicated to analyzing e-Learning da
 ├── results/            # Analysis results and model outputs
 └── README.md           # Project description file
 ```
+---
 
-### Details:
-- **`data/`**: Includes datasets like `COVID-19-online-studys-0523-BAK-5.sav` used for analysis.
-- **`notebooks/`**: Contains Jupyter Notebook files, such as `E-Learning-FA.ipynb`, for interactive data exploration and analysis.
-- **`scripts/`**: Holds reusable Python scripts for tasks like data cleaning, transformation, or visualization.
-- **`results/`**: Stores outputs such as visualizations, factor analysis results, or processed datasets.
-- **`README.md`**: Provides an overview of the project and instructions for usage.
+## 目錄結構 | Repository Structure
 
-## Features
+### 詳細說明 | Details:
+- **`data/`**: 包含用於分析的資料集（含 `.sav` 等格式）。  
+  Includes datasets like `.sav` used for analysis.
+- **`notebooks/`**: 儲存互動式分析用的 Jupyter Notebook 檔案（如 `E-Learning-FA.ipynb`）。  
+  Contains Jupyter Notebook files for interactive data exploration and analysis.
+- **`scripts/`**: 放置可重複使用的 Python 腳本（如資料清理、轉換和視覺化）。  
+  Holds reusable Python scripts for tasks such as data cleaning, transformation, or visualization.
+- **`results/`**: 儲存分析結果、視覺化圖表及處理後的資料集。  
+  Stores outputs such as visualizations, factor analysis results, or processed datasets.
+- **`README.md`**: 提供專案總覽與使用說明。  
+  Provides an overview of the project and instructions for usage.
 
-- **Data Preprocessing**: Handles `.sav` survey files using Python libraries like `pandas` and `pyreadstat`.
-- **Factor Analysis**: Utilizes `factor_analyzer` and `sklearn` for conducting factor analysis on the survey data.
-- **Visualization and Insights**: Explores relationships between multiple factors such as personalization, interaction, and online integration.
-- **Colab Compatibility**: Designed to run on Google Colab with support for library installation and environment setup.
+---
 
-## Technologies Used
+## 實驗成果展示 | Experiment Results
+
+### 問卷測試數值分布 | Questionnaire Testing Value Counts
+![問卷測試數值分布](assets/Questionnaire%20Testing%20Value%20Counts.jpg)
+
+### 因子負載量熱圖 | Factor Loading Heat Map
+![因子負載量熱圖](assets/Factor%20Loading%20Heat%20Map.jpg)
+
+### 相關矩陣熱圖 | Correlation Matrix Heat Map
+![相關矩陣熱圖](assets/Correlation%20Matrix%20Heat%20Map.jpg)
+
+*每張圖可加上簡要說明（中英文），說明其資料意義與分析亮點。*  
+*Add brief descriptions (in both Chinese and English) for each image to highlight the data insights.*
+
+---
+
+## 敏感資料說明 | Sensitive Data Notice
+
+本專案部分分析需依賴敏感資料（如問卷原始檔案等），例如 `COVID-19-online-studys-0523-BAK-5.sav` 等，基於隱私與資料保護考量，這類檔案並未公開於本倉庫。  
+Some analyses in this project rely on sensitive data (e.g., raw survey files such as `COVID-19-online-studys-0523-BAK-5.sav`). For privacy and data protection reasons, these files are not publicly available in this repository.
+
+如需進一步資料協作，請私下聯絡專案維護者。  
+If you need further collaboration regarding the data, please contact the project maintainer privately.
+
+---
+
+## 研究方法與功能 | Research Methods & Features
+
+- **資料預處理 Data Preprocessing**：  
+  使用 Python 套件（如 `pandas`, `pyreadstat`）處理 `.sav` 問卷資料。  
+  Handles `.sav` survey files using Python libraries such as `pandas` and `pyreadstat`.
+- **因子分析 Factor Analysis**：  
+  利用 `factor_analyzer` 與 `sklearn` 進行問卷資料的因子分析。  
+  Conducts factor analysis on the survey data using `factor_analyzer` and `sklearn`.
+- **視覺化與洞察 Visualization & Insights**：  
+  探討多種學習要素（如個人化、互動性、線上整合性）之間的關聯。  
+  Explores relationships between multiple learning factors such as personalization, interaction, and online integration.
+- **Colab 相容性 Colab Compatibility**：  
+  支援 Google Colab 雲端執行與套件安裝。  
+  Designed for cloud-based execution and easy library installation via Google Colab.
+
+---
+
+## 技術棧 | Technologies Used
 
 - **Python Libraries**:
-  - `pandas` for data manipulation
-  - `pyreadstat` for handling `.sav` files
-  - `factor_analyzer` for factor analysis
-  - `sklearn` for decomposition
-  - `matplotlib` for data visualization
-- **Jupyter Notebook**: For interactive data analysis and visualization.
-- **Google Colab**: For cloud-based execution and collaboration.
+  - `pandas`：資料處理 Data manipulation
+  - `pyreadstat`：處理 `.sav` 檔案 Handling `.sav` files
+  - `factor_analyzer`：因子分析 Factor analysis
+  - `sklearn`：降維與建模 Decomposition & modeling
+  - `matplotlib`：資料視覺化 Data visualization
+- **Jupyter Notebook**：互動式分析與視覺化 Interactive data analysis & visualization
+- **Google Colab**：雲端協作與執行 Cloud-based execution & collaboration
 
-## Data
+---
 
-The analysis is based on a survey dataset stored in the file `COVID-19-online-studys-0523-BAK-5.sav`. The dataset includes metrics such as dispositions, personalization, and online interactions, which are used to evaluate e-Learning experiences.
+## 如何使用 | Usage
 
-## How to Use
+1. 安裝相關套件（可參考 `requirements.txt` 或 Notebook 內說明）。  
+   Install required libraries (see `requirements.txt` or instructions in the notebooks).
+2. 下載或複製本專案後，於 Jupyter Notebook 或 Google Colab 執行分析程式。  
+   Clone or download this repository and run the analysis in Jupyter Notebook or Google Colab.
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/BiuwuLOK/E-Learning-FA.git
-    ```
+---
 
-2. Navigate to the repository and organize the directories as per the structure.
-3. Open the `E-Learning-FA.ipynb` file in Jupyter Notebook or Google Colab.
-4. Follow the instructions in the notebook to install dependencies, load the data, and run the analysis.
+## 聯絡方式 | Contact
 
-## Results
+如有任何問題或協作需求，歡迎於 Issue 區留言或聯絡專案維護者。  
+For questions or collaboration, please open an issue or contact the project maintainer.
 
-The notebook provides:
-- Statistical summaries of survey responses.
-- Factor analysis results highlighting key influencing factors.
-- Visualizations for better understanding of the data.
+---
 
-## Contributions
-
-Contributions to this project are welcome. If you have improvements or suggestions, feel free to open an issue or submit a pull request.
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
