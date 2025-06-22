@@ -61,11 +61,8 @@ Shows the strength of correlations between variables.
 
 ## 敏感資料說明 | Sensitive Data Notice
 
-本專案部分分析需依賴敏感資料（如問卷原始檔案等），例如 `COVID-19-online-studys-0523-BAK-5.sav` 等，基於隱私與資料保護考量，這類檔案並未公開於本倉庫。  
-Some analyses in this project rely on sensitive data (e.g., raw survey files such as `COVID-19-online-studys-0523-BAK-5.sav`). For privacy and data protection reasons, these files are not publicly available in this repository.
-
-如需進一步資料協作，請私下聯絡專案維護者。  
-If you need further collaboration regarding the data, please contact the project maintainer privately.
+本專案部分分析需依賴敏感資料（如問卷原始檔案等），基於隱私與資料保護考量，這類檔案並未公開於本倉庫。  
+Some analyses in this project rely on sensitive data. For privacy and data protection reasons, these files are not publicly available in this repository.
 
 ---
 
