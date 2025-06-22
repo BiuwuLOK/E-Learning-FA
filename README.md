@@ -93,15 +93,6 @@ If you need further collaboration regarding the data, please contact the project
 
 ---
 
-## 如何使用 | Usage
-
-1. 安裝相關套件（可參考 `requirements.txt` 或 Notebook 內說明）。  
-   Install required libraries (see `requirements.txt` or instructions in the notebooks).
-2. 下載或複製本專案後，於 Jupyter Notebook 或 Google Colab 執行分析程式。  
-   Clone or download this repository and run the analysis in Jupyter Notebook or Google Colab.
-
----
-
 ## 聯絡方式 | Contact
 
 如有任何問題或協作需求，歡迎於 Issue 區留言或聯絡專案維護者。  
