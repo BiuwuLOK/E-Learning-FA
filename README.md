@@ -40,13 +40,13 @@ This project focuses on analyzing and exploring E-Learning data, including prepr
 ## 實驗成果展示 | Experiment Results
 
 ### 問卷測試數值分布 | Questionnaire Testing Value Counts
-![問卷測試數值分布](assets/Questionnaire%20Testing%20Value%20Counts.jpg)
+![問卷測試數值分布](assets/Questionnaire_Testing_Value_Counts.jpg)
 
 ### 因子負載量熱圖 | Factor Loading Heat Map
-![因子負載量熱圖](assets/Factor%20Loading%20Heat%20Map.jpg)
+![因子負載量熱圖](assets/Factor_Loading_Heat_Map.jpg)
 
 ### 相關矩陣熱圖 | Correlation Matrix Heat Map
-![相關矩陣熱圖](assets/Correlation%20Matrix%20Heat%20Map.jpg)
+![相關矩陣熱圖](assets/Correlation_Matrix_Heat_Map.jpg)
 
 *每張圖可加上簡要說明（中英文），說明其資料意義與分析亮點。*  
 *Add brief descriptions (in both Chinese and English) for each image to highlight the data insights.*
